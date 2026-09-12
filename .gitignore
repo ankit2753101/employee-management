@@ -1,0 +1,36 @@
+# ─── Compiled output ──────────────────────────────────────────────────────────
+target/
+
+# ─── Maven wrapper ────────────────────────────────────────────────────────────
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# ─── IDE files ────────────────────────────────────────────────────────────────
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+*.code-workspace
+
+# ─── OS files ─────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ─── Spring Boot ──────────────────────────────────────────────────────────────
+spring-shell.log
+
+# ─── H2 Database files (in case of file-based H2) ────────────────────────────
+*.db
+*.mv.db
+*.trace.db
+
+# ─── Environment / secrets ────────────────────────────────────────────────────
+.env
+*.env
+application-local.properties
